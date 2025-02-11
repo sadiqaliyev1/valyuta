@@ -8,7 +8,7 @@
 
 
 let amount = Number(prompt("mebleg daxil edin !"));
-
+    
 if (amount <=0 || isNaN(amount)){
     alert("duzgun mebleg daxil edin !")
 }
