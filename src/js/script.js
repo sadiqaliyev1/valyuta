@@ -17,24 +17,23 @@ else{
 let msg = `valyuta secin !
     USD
     EUR
-    RUB`
+    RUB
+    TRY`
 
     let currecy = prompt(msg).toLowerCase();
 
 switch (currecy) {
-    case "USD":
     case "usd":
         alert(`${amount} USD ${amount *1.70} manatdir `)
-        
         break;
-
-    case "EUR":
     case "eur":
         alert(`${amount} EUR ${amount * 1.75} manatdir !`)
         break;
-    case "RUB":
     case "rub":
-        alert(`${amount} RUB ${amount * 0.0175 } manatdir `)
+        alert(`${amount} RUB ${amount * 0.175 } manatdir `)
+        break;
+    case "try":
+        alert(`${amount} TRY ${amount *  21 } manatdir `)
         break;
     default:
         alert("duzgun valyuta qeyd edin !")
@@ -43,4 +42,3 @@ switch (currecy) {
 
 
 }
-
